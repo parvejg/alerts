@@ -1,0 +1,34 @@
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+.danger-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: tomato;
+  width: 80%;
+  padding: 10px;
+  color: white;
+}
+.danger-text {
+  font-size: large;
+  color: white;
+}
+.danger-alerts {
+  font-size: large;
+}
+.close-btn {
+  background-color: tomato;
+  border: hidden;
+  font-size: larger;
+  color: white;
+  cursor: pointer;
+}
+.close-btn:hover {
+  color: black;
+}
